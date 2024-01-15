@@ -1,0 +1,8 @@
+version: "3"
+  Services:
+    Service A:
+      clé1: "valeur"
+      clé2: "valeur"
+  Service B:
+      clé1: "valeur"
+      clé2: "valeur"

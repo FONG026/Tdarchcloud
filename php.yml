@@ -1,0 +1,10 @@
+Phpmyadmin:
+  image: phpmyadmin
+  restart: always
+  expose:
+  - "40001"
+ports:
+  - "40001:80"
+environment:
+  - PMA_HOST=mariadb
+  - PMA_PORT=3306
